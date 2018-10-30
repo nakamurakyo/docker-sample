@@ -4,7 +4,7 @@ services:
     build: .
     environment:
       RAILS_ENV: development
-      DATABASE_URL: mysql2://root:pass@mysql:3406
+      DATABASE_URL: mysql2://root:pass@mysql:3306
       MYSQL_ROOT_PASSWORD: 'pass' # develop環境のため、prdでは環境変数などにすること
     ports:
       - '3100:3000'
